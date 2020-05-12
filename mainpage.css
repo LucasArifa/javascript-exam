@@ -169,14 +169,6 @@ td#tdHistorico {
   position: relative;
   right: 20px;
   transition: all 1s;
-  cursor: pointer;
-}
-#tdHistorico:hover{
-  background-color: rgb(255, 238, 0);
-  opacity: 1.0;
-  right: 80px;
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
 }
 td#tdNota:hover,
 td.tdNota {
@@ -233,11 +225,6 @@ td.tdNota {
     cursor: pointer;
     font-family: Poppins-Bold;
 }
-#relatorio:hover {
-  bottom: 15px;
-  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-}
 #zerarChances {
   background-color: rgba(0, 0, 0, 0.849);
   color: rgb(255, 238, 0);
@@ -247,17 +234,12 @@ td.tdNota {
   border-radius: 5px;
   box-shadow: white 10px;
   position: relative;
-  top: 40px;
+  top: 20px;
   right: 50px;
   width: 200px;
   height: 40px;
-  transition: all 0.5s;
     cursor: pointer;
     font-family: Poppins-Bold;
-}
-#zerarChances:hover {
-  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
 @media only screen and (max-width: 825px) {
   table h1 {
@@ -274,19 +256,15 @@ td.tdNota {
       font-size: small;
       position: relative;
   }
-  #relatorio:hover {
-    right: -10px;
-    position: relative;
-  }
   #txtNota {
     padding: 0%;
     margin: 0%;
-    top: -0px;
+    top: -15px;
     font-size: small;
   }
   #txtNotaMax {
     align-self: center;
-    top: 5px;
+    top: 10px;
     font-size: x-small;
   }
   #zerarChances {
@@ -294,13 +272,6 @@ td.tdNota {
     width: 150px;
     position: relative;
     top: 10px;
-  }
-  #zerarChances:hover {
-    top: 35px;
-    width: 150px;
-    height: 40px;
-    position: relative;
-    top: 12px;
   }
   .radios {
     font-size: 30px;
