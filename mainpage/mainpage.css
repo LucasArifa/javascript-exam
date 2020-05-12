@@ -153,18 +153,8 @@ h2 {
   border: 10px solid rgb(255, 238, 0);
 }
 .finalizarTeste:hover {
-  padding: 15px;
-  margin: 10px;
-  position: relative;
-  right: 10px;
-  width: 100%;
   font-size: 25px;
-  font-family: Poppins-Regular, sans-serif;
-  color: black;
-  background-color: rgb(255, 238, 0);
-  border: 2px solid white;
   border: 10px solid rgb(255, 238, 0);
-  border-radius: 15px;
   cursor: pointer;
 }
 /* Estilos da Nota Final  no Cabeçalho da Página*/
@@ -181,26 +171,16 @@ td#tdHistorico {
   transition: all 1s;
   cursor: pointer;
 }
-table tr #tdHistorico:hover , #historico{
+#tdHistorico:hover{
   background-color: rgb(255, 238, 0);
   opacity: 1.0;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  position: relative;
   right: 80px;
-  border: solid 2px black;
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
 td#tdNota:hover,
 td.tdNota {
-  padding: 0px;
-  margin: 0px;
   background-color: rgb(255, 238, 0);
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  border: solid 2px black;
-  position: relative;
-  right: 20px;
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
@@ -253,18 +233,9 @@ td.tdNota {
     font-family: Poppins-Bold;
 }
 #relatorio:hover {
-  text-decoration: none;
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 238, 0);
-  padding: 5px;
-  margin: 0px;
-  border-radius: 5px;
-  position: relative;
   bottom: 10px;
-  right: -30px;
   -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    font-family: Poppins-Bold;
 }
 #zerarChances {
   background-color: rgba(0, 0, 0, 0.849);
@@ -284,18 +255,8 @@ td.tdNota {
     font-family: Poppins-Bold;
 }
 #zerarChances:hover {
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 238, 0);
-  padding: 5px;
-  margin: 0px;
-  border-color: black;
-  border-radius: 5px;
-  position: relative;
-  top: 50px;
-  right: 50px;
   -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    font-family: Poppins-Bold;
 }
 @media only screen and (max-width: 825px) {
   table h1 {
@@ -341,8 +302,4 @@ td.tdNota {
   .radios {
     font-size: 30px;
   }
-  
-}
-@media only screen and (max-width: 600px) {
-
-}
+}  
