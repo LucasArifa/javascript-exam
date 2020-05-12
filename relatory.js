@@ -387,6 +387,7 @@ window.onload = function () {
 
     window.document.getElementById('mediaNotaNum').innerText = `${media}%`
     window.document.getElementById('mediaNotaTxt2').innerHTML = `Média relativa à <strong>3 Tentativas</strong>`
+    window.document.getElementById('mediaNotaTxt3').innerText = `de 100%`
   } else if (window.localStorage.getItem('userNota2')){
     const userNota2 = Number(window.localStorage.getItem('userNota2'));
     const userNota1 = Number(window.localStorage.getItem('userNota1'));
@@ -397,11 +398,11 @@ window.onload = function () {
     window.document.getElementById('mediaNotaNum').innerText =  `${media}%`
     window.document.getElementById('mediaNotaTxt2').innerHTML = `Média relativa à <strong>2 Tentativas</strong>`
     window.document.getElementById('mediaNotaTxt3').innerText = `de 100%`
-
   } else if (window.localStorage.getItem('userNota1')){
     const userNota1 = Number(window.localStorage.getItem('userNota1'));
     window.document.getElementById("mediaNotaNum").innerText =  `${userNota1}%`
     window.document.getElementById('mediaNotaTxt2').innerHTML = `Média relativa à <strong>1 Tentativa</strong>`
+    window.document.getElementById('mediaNotaTxt3').innerText = `de 100%`
   }
 
 if (relatorioErrou) {
