@@ -1,0 +1,348 @@
+@charset "UTF-8";
+
+/* Import tags */
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../fonts/poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("../fonts/poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("../fonts/poppins/Poppins-Bold.ttf");
+}
+/* Body tags */
+body {
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  font-family: Poppins-Regular, sans-serif;
+  font-size: 20px;
+  display: flex;
+}
+/* Main div Styles */
+.main {
+  width: 900px;
+  height: auto;
+  color: #ffffff;
+  background-color: rgb(40, 42, 54);
+  margin: 50px auto 50px auto;
+  border: 2px solid rgb(255, 238, 0);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px 10px 10px 10px;
+}
+/* Header Styles */
+table {
+  width: 90%;
+  height: auto;
+  background-color: rgb(255, 238, 0);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin: 10px 10px 50px 20px;
+}
+.main img {
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.main p {
+  padding-left: 20px;
+}
+table img {
+  width: 100px;
+  height: 100px;
+  margin: 0%;
+  padding: 0%;
+}
+table h1 {
+  font-size: 30pt;
+  position: relative;
+  right: 50px;
+}
+
+h2 {
+  font-size: 20pt;
+  margin-left: 20px;
+}
+.main td {
+  color: black;
+}
+/* RADIO BUTTONS (CERTO E ERRADO) */
+.radio,
+.radio-alternativas {
+  /*Aplica-se em todos os Inputs Radios*/
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.radio + .radio {
+  margin-left: 100px;
+}
+.radio input[type="radio"],
+.radio-alternativas input[type="radio"] {
+  /*Aplica-se em todos os Inputs Radios*/
+  display: none;
+}
+.radio span,
+.radio-alternativas span {
+  /*Aplica-se em todos os Inputs Radios*/
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 3px solid rgb(255, 238, 0);
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+.radio span::after,
+.radio-alternativas span::after {
+  /*Aplica-se em todos os Inputs Radios*/
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: rgb(255, 238, 0);
+  display: block;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  transition: 300ms ease-in-out 0s;
+}
+/*Aplica-se em todos os Inputs Radios*/
+.radio input[type="radio"]:checked ~ span:after,
+.radio-alternativas input[type="radio"]:checked ~ span:after {
+  transform: translate(-50%, -50%) scale(2);
+}
+.radio-group {
+  /*Aplica-se em todos os Inputs Radios*/
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid rgb(255, 238, 0);
+  border-radius: 10px;
+}
+/* SUBMIT BUTTON */
+.finalizarTeste {
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  right: 10px;
+  width: 100%;
+  font-size: 20px;
+  font-family: Poppins-Regular, sans-serif;
+  border-radius: 15px;
+  color: black;
+  background-color: rgb(255, 238, 0);
+  transition: all 0.5s;
+  border: 10px solid rgb(255, 238, 0);
+}
+.finalizarTeste:hover {
+  padding: 15px;
+  margin: 10px;
+  position: relative;
+  right: 10px;
+  width: 100%;
+  font-size: 25px;
+  font-family: Poppins-Regular, sans-serif;
+  color: black;
+  background-color: rgb(255, 238, 0);
+  border: 2px solid white;
+  border: 10px solid rgb(255, 238, 0);
+  border-radius: 15px;
+  cursor: pointer;
+}
+/* Estilos da Nota Final  no Cabeçalho da Página*/
+/* Estilos da Nota Final  no Cabeçalho da Página*/
+td#tdNota,
+td#tdHistorico {
+  padding: 5px;
+  margin: 0px;
+  border: solid 2px black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  right: 20px;
+  transition: all 1s;
+  cursor: pointer;
+}
+table tr #tdHistorico:hover , #historico{
+  background-color: rgb(255, 238, 0);
+  opacity: 1.0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  right: 80px;
+  border: solid 2px black;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+td#tdNota:hover,
+td.tdNota {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(255, 238, 0);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border: solid 2px black;
+  position: relative;
+  right: 20px;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+#txtHistorico {
+  padding: 5%;
+  margin: 0%;
+  text-align: center;
+  text-decoration: underline;
+  position: relative;
+  bottom: 5px;
+  left: 3px;
+}
+#txtNota {
+  padding: 0%;
+  margin: 0%;
+  text-align: center;
+  text-decoration: underline;
+  position: relative;
+  top: -50px;
+}
+#txtNotaMax {
+  position: relative;
+  top: 70px;
+  right: -10px;
+  font-size: smaller;
+}
+.txtTentativa{
+  position: relative;
+  right: 20px;
+  }
+#numNota {
+  padding: 0%;
+  margin: 0%;
+  text-align: center;
+  font-size: 30pt;
+}
+#relatorio {
+  text-decoration: none;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.849);
+  color: rgb(255, 238, 0);
+  padding: 5px;
+  margin: 0px;
+  border-radius: 5px;
+  box-shadow: white 10px;
+  position: relative;
+  right: -30px;
+  transition: all 1s;
+    cursor: pointer;
+    font-family: Poppins-Bold;
+}
+#relatorio:hover {
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 238, 0);
+  padding: 5px;
+  margin: 0px;
+  border-radius: 5px;
+  position: relative;
+  bottom: 10px;
+  right: -30px;
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    font-family: Poppins-Bold;
+}
+#zerarChances {
+  background-color: rgba(0, 0, 0, 0.849);
+  color: rgb(255, 238, 0);
+  padding: 5px;
+  margin: 0px;
+  border-color: black;
+  border-radius: 5px;
+  box-shadow: white 10px;
+  position: relative;
+  top: 45px;
+  right: 50px;
+  width: 200px;
+  height: 40px;
+  transition: all 0.5s;
+    cursor: pointer;
+    font-family: Poppins-Bold;
+}
+#zerarChances:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 238, 0);
+  padding: 5px;
+  margin: 0px;
+  border-color: black;
+  border-radius: 5px;
+  position: relative;
+  top: 50px;
+  right: 50px;
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    font-family: Poppins-Bold;
+}
+@media only screen and (max-width: 825px) {
+  table h1 {
+    font-size: 20pt;
+    position: relative;
+    right: 50px;
+  }
+  .txtTentativa{
+  font-size: xx-small;
+  }
+  #relatorio {
+    right: -15px;
+      font-size: small;
+      position: relative;
+      left: 5px;
+  }
+  #relatorio:hover {
+    right: -15px;
+    position: relative;
+      left: 7px;
+  }
+  #txtNota {
+    top: -30px;
+  }
+  #txtNotaMax {
+    top: 50px;
+    right: -10px;
+    font-size: x-small;
+  }
+  #zerarChances {
+    top: 35px;
+    width: 150px;
+    position: relative;
+    top: 10px;
+  }
+  #zerarChances:hover {
+    top: 35px;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    top: 12px;
+  }
+  .radios {
+    font-size: 30px;
+  }
+  
+}
+@media only screen and (max-width: 600px) {
+
+}
