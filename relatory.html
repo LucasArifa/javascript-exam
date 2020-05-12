@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- Meta tags sempre vem antes -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Links para files/folders externas -->
+  <link rel="stylesheet" href="../relatory/relatory.css">
+  <script src="../relatory/relatory.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <link rel="JavaScript Tab Icon" href="../images/javascript-icon-tab.png" type="image/x-icon" />
+  <title>Relatório</title>
+</head>
+<body>
+ <div class="main">
+<header>
+  <h1>COMPARAÇÃO DAS QUESTÕES</h1>
+</header>
+<div align="center">
+<span class="span"  id="green"></span>  <span class="span" >-> ACERTOU</span> 
+<span class="span"  id="red"></span>  <span class="span" >-> ERROU</span> 
+<span class="span"  id="grey"></span>  <span class="span" >-> NÃO RESPONDEU</span>
+</div>
+
+<table id="tableQuestoes">
+  <div>
+    <tr id="headerQuestoes">
+      <td id="tdQuestoes"> QUESTÕES/NÚMERO</td>
+      <td> ACERTOU</td>
+      <td>ERROU</td>
+    </tr>
+  </div>
+  <tr>
+    <td id="tdQuestao1" class="tdQuestao"><span><strong>1</strong></span></td>
+    <td id="tdQ1Acertou" class="tdAcertou"></td>
+    <td id="tdQ1Errou" class="tdErrou"></td>
+  </tr>
+  <tr>
+    <td id="tdQuestao2" class="tdQuestao"><span><strong>2</strong></span></td>
+    <td id="tdQ2Acertou" class="tdAcertou"></td>
+    <td id="tdQ2Errou" class="tdErrou"></td>
+  </tr>
+  <td id="tdQuestao3" class="tdQuestao"><span><strong>3</strong></span></td>
+    <td id="tdQ3Acertou" class="tdAcertou"></td>
+    <td id="tdQ3Errou" class="tdErrou"></td>
+  </tr>
+  <td id="tdQuestao4" class="tdQuestao"><span><strong>4</strong></span></td>
+    <td id="tdQ4Acertou" class="tdAcertou"></td>
+    <td id="tdQ4Errou" class="tdErrou"></td>
+  </tr>
+  <td id="tdQuestao5" class="tdQuestao"><span><strong>5</strong></span></td>
+    <td id="tdQ5Acertou" class="tdAcertou"></td>
+    <td id="tdQ5Errou" class="tdErrou"></td>
+  </tr>
+  <td id="tdQuestao6" class="tdQuestao"><span><strong>6</strong></span></td>
+    <td id="tdQ6Acertou" class="tdAcertou"></td>
+    <td id="tdQ6Errou" class="tdErrou"></td>
+  </tr>
+  <td id="tdQuestao7" class="tdQuestao"><span><strong>7</strong></span></td>
+    <td id="tdQ7Acertou" class="tdAcertou"></td>
+    <td id="tdQ7Errou" class="tdErrou"></td>
+  </tr>
+  <td id="tdQuestao8" class="tdQuestao"><span><strong>8</strong></span></td>
+    <td id="tdQ8Acertou" class="tdAcertou"></td>
+    <td id="tdQ8Errou" class="tdErrou"></td>
+  </tr>
+  <td id="tdQuestao9" class="tdQuestao"><span><strong>9</strong></span></td>
+    <td id="tdQ9Acertou" class="tdAcertou"></td>
+    <td id="tdQ9Errou" class="tdErrou"></td>
+  </tr>
+  <td id="tdQuestao10" class="tdQuestao"><span><strong>10</strong></span></td>
+    <td id="tdQ10Acertou" class="tdAcertou"></td>
+    <td id="tdQ10Errou" class="tdErrou"></td>
+  </tr>
+</table>
+
+<header>
+<h1>MÉDIA DE ACERTOS</h1>
+</header>
+<div align="center">
+  <h2 id="mediaNotaTxt"><strong>Média de Acertos relativo às tentativas presentes no histórico de notas.</strong></h2>
+  <div id="mediaNotaDiv">
+<p id="mediaNotaTxt2"></p>
+<p id="mediaNotaNum"></p>
+</div>
+</div>
+
+<header>
+  <h1>SUGESTÕES DE TÓPICOS</h1>
+</header>
+<h2 align="center">
+  As <strong>sugestões</strong> são baseadas nas questões que você <strong>errou</strong>.
+</h2>
+<div id="sugestoes">
+
+</div>
+</div>
+</body>
+</html>
