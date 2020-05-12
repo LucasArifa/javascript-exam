@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+/* Import tags */
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../fonts/poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("../fonts/poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("../fonts/poppins/Poppins-Bold.ttf");
+}
+/* Body tags */
+body {
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  font-family: Poppins-Regular, sans-serif;
+  font-size: 20px;
+  display: flex;
+}
+/* Main div Styles */
+.main {
+  width: 900px;
+  height: auto;
+  color: #ffffff;
+  background-color: rgb(40, 42, 54);
+  margin: 50px auto 50px auto;
+  border: 2px solid rgb(255, 238, 0);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px 10px 10px 10px;
+}
+header h1 {
+  padding: 10px;
+  margin: 0;
+  background-color:rgb(255, 238, 0) ;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: black;
+}
+#tableQuestoes{
+  width: 800px;
+  height: auto;
+  color: #ffffff;
+  background-color: rgb(40, 42, 54);
+  margin: 50px auto 50px auto;
+  border: 2px solid rgb(255, 238, 0);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px 10px 10px 10px;
+}
+#tdQuestoes{
+  width: 800px;
+  height: auto;
+  color: #ffffff;
+  background-color: rgb(40, 42, 54);
+  margin: 50px auto 50px auto;
+  border: 2px solid rgb(255, 238, 0);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px 10px 10px 10px;
+}
+ tr  {
+  padding: 10px;
+  text-align: center;
+}
+td {
+  border: 2px solid rgb(255, 238, 0);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+}
+tr td span {
+background-color: rgb(255, 238, 0);
+color: black;
+padding: 10px;
+margin: 0;
+border: 1px solid black;
+box-shadow: black;
+border-radius: 45%;
+}
+#green {
+  padding: 10px;
+  margin: 10px;
+  width: 5px !important;
+  height: 5px !important;
+  background-color: green;
+  border: 1px solid black;
+border-radius: 5px;
+}
+#red {
+  padding: 10px;
+  margin: 10px;
+  width: 5px !important;
+  height: 5px !important;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#grey {
+  padding: 10px;
+  margin: 10px;
+  width: 5px !important;
+  height: 5px !important;
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.span {
+  position: relative;
+  top:30px;
+}
+.tdGreen {
+  background-color: green;
+}
+.tdRed {
+  background-color: red;
+}
+.tdGrey {
+  background-color: grey;
+}
+#mediaNotaDiv {
+  padding: 5px;
+  margin: 50px auto 50px auto;
+  border: 2px solid  rgb(255, 238, 0);
+  border-radius: 10px;
+  box-shadow: white;
+  max-width: 300px;
+  height: 150px;
+  align-content: center;
+  transition: all 1s;
+    cursor: pointer;
+}
+#mediaNotaNum {
+  padding: 0px;
+  margin: 0px;
+  font-size: 40pt;
+  color: rgb(255, 238, 0);
+}
