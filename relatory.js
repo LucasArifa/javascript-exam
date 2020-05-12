@@ -386,7 +386,7 @@ window.onload = function () {
     media = media.toFixed(1) ;
 
     window.document.getElementById('mediaNotaNum').innerText = `${media}%`
-    window.document.getElementById('mediaNotaTxt2').innerHTML = `Média relativa à <strong>3 Tentativa</strong>`
+    window.document.getElementById('mediaNotaTxt2').innerHTML = `Média relativa à <strong>3 Tentativas</strong>`
   } else if (window.localStorage.getItem('userNota2')){
     const userNota2 = Number(window.localStorage.getItem('userNota2'));
     const userNota1 = Number(window.localStorage.getItem('userNota1'));
@@ -396,6 +396,7 @@ window.onload = function () {
 
     window.document.getElementById('mediaNotaNum').innerText =  `${media}%`
     window.document.getElementById('mediaNotaTxt2').innerHTML = `Média relativa à <strong>2 Tentativas</strong>`
+    window.document.getElementById('mediaNotaTxt3').innerText = `de 100%`
 
   } else if (window.localStorage.getItem('userNota1')){
     const userNota1 = Number(window.localStorage.getItem('userNota1'));
@@ -408,37 +409,37 @@ if (relatorioErrou) {
   const sugestoes = window.document.getElementById('sugestoes');
 
   if (relatorioErrou.question1 > 0 || relatorioErrou.question2 > 0) {
-    let sugestao1 = this.document.createElement('h3');
-    let sugestao1txt = this.document.createTextNode(` - Inclusão e Remoção das propriedades de um Arrays`);
+    let sugestao1 = this.document.createElement('h4');
+    let sugestao1txt = this.document.createTextNode(` - Manipulação das Propriedades de um Array`);
     sugestao1.appendChild(sugestao1txt);
     sugestoes.appendChild(sugestao1);
   } if (relatorioErrou.question3 > 0 ) {
-    let sugestao2 = this.document.createElement('h3');
+    let sugestao2 = this.document.createElement('h4');
     let sugestao2txt = this.document.createTextNode(` - JavaScript interno e externo`);
     sugestao2.appendChild(sugestao2txt);
     sugestoes.appendChild(sugestao2);
   }if (relatorioErrou.question4 > 0 ) {
-    let sugestao3 = this.document.createElement('h3');
-    let sugestao3txt = this.document.createTextNode(` - Manipulação das propriedades de Objetos Literais`);
+    let sugestao3 = this.document.createElement('h4');
+    let sugestao3txt = this.document.createTextNode(` - Manipulação das propriedades dos Objetos Literais`);
     sugestao3.appendChild(sugestao3txt);
     sugestoes.appendChild(sugestao3);
   }if (relatorioErrou.question5 > 0 || relatorioErrou.question6 > 0 ) {
-    let sugestao4 = this.document.createElement('h3');
+    let sugestao4 = this.document.createElement('h4');
     let sugestao4txt = this.document.createTextNode(` - Operadores de Incremento e Decremento`);
     sugestao4.appendChild(sugestao4txt);
     sugestoes.appendChild(sugestao4);
   }if (relatorioErrou.question7 > 0 || relatorioErrou.question10 > 0 ) {
-    let sugestao5 = this.document.createElement('h3');
-    let sugestao5txt = this.document.createTextNode(` - Métodos de acesso e manipulação do HTML DOM`);
+    let sugestao5 = this.document.createElement('h4');
+    let sugestao5txt = this.document.createTextNode(` - Métodos de acesso e Manipulação do HTML DOM`);
     sugestao5.appendChild(sugestao5txt);
     sugestoes.appendChild(sugestao5);
   }if (relatorioErrou.question8 > 0 ) {
-    let sugestao6 = this.document.createElement('h3');
+    let sugestao6 = this.document.createElement('h4');
     let sugestao6txt = this.document.createTextNode(` - Estruturas condicionais em JavaScript`);
     sugestao6.appendChild(sugestao6txt);
     sugestoes.appendChild(sugestao6);
   }if (relatorioErrou.question9 > 0 ) {
-    let sugestao7 = this.document.createElement('h3');
+    let sugestao7 = this.document.createElement('h4');
     let sugestao7txt = this.document.createTextNode(` - Map Objects em JavaScript`);
     sugestao7.appendChild(sugestao7txt);
     sugestoes.appendChild(sugestao7);
