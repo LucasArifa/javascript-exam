@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags sempre vem antes -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Links para files/folders externas -->
+    <link rel="stylesheet" href="../index/index.css" />
+    <script src="../index/index.js"></script>
+    <link
+      rel="JavaScript Tab Icon"
+      href="../images/javascript-icon-tab.png"
+      type="image/x-icon"
+    />
+    <title>Intruções de Teste</title>
+  </head>
+  <body>
+    <section class="main">
+      <header >
+        <h1>Instruções do Teste</h1>
+      </header>
+      <section>
+        <div id="divTeste">
+          <h3 id="h3Teste">O Teste</h3>
+        </div>
+        <div id="txtTeste">
+          <p>
+                O candidado deve, após responder as questões,<strong
+              >descer a página</strong
+            >
+            até avistar um <strong>Botão</strong> com nome
+            <strong>finalizar teste</strong>, após clicar neste botão o usuário
+            terá sua <strong>nota</strong> relativa ao
+            <strong>teste</strong> mostrada na <strong>divisão nota</strong> e
+            registrada no <strong>histórico</strong>, ambos no topo da página.
+          </br>
+                A <strong>nota do teste</strong> é contada em <em>porcentagem</em>, sendo que <strong>o teste vale 100%</strong>, são dez questões, <strong>cada questão vale 10%</strong>.
+          </p>
+        </div>
+        <div id="divHistorico">
+          <h3 id="h3Historico">O Histórico</h3>
+        </div>
+        <div id="txtHistorico">
+          <p>
+            O histórico registrará as
+            <strong>três primeiras tentativas do usuário</strong>, o usuário
+            terá opção de <strong>reseta-lo</strong> clicando no botão
+            <strong>Resetar Histórico</strong>
+          </p>
+        </div>
+        <div id="divRelatorio">
+          <h3 id="h3Relatorio">O Relatório</h3>
+        </div>
+        <div id="txtRelatorio">
+          <p>
+            O relatório é a página que trará uma
+            <strong>análise crítica</strong> referente ás
+            <strong>notas presentes no histórico</strong>, esta análise irá
+            expor e sugerir:
+          </p>
+          <p>
+            - <strong>Comparação de questões</strong> certas e erradas.
+          </p>
+          <p>
+            - <strong>Média aproximada das notas</strong> presentes no histórico.
+          </p>
+          <p>
+            - <strong>Sugestão de tópicos para estudo</strong>, com base nas questões que o
+            usuário mais errou.
+          </p>
+        </div>
+        <div id="divAceite" align="center">
+        <label class="checkbox" for="aceitoCheckboxId">
+        <input type="checkbox" name="aceitoCheckboxName" id="aceitoCheckboxId" onchange="verificarCheckbox()">LI E ENTENDI AS INSTRUÇÕES
+      </label>
+      <p></p>
+    </div>
+  <div id="aceiteLink" align="center">
+      <label id="fazerTeste" for="button">
+        <a id="fazerTesteLink" href="../mainpage/mainpage.html">FAZER TESTE</a>
+      </label>
+    </div>
+
+      </section>
+    </section>
+  </body>
+</html>

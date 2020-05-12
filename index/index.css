@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/* Import tags */
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../fonts/poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("../fonts/poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("../fonts/poppins/Poppins-Bold.ttf");
+}
+/* Body tags */
+body {
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  font-family: Poppins-Regular, sans-serif;
+  font-size: 20px;
+  display: flex;
+}
+/* Main div Styles */
+.main {
+  width: 900px;
+  height: auto;
+  color: #ffffff;
+  background-color: rgb(40, 42, 54);
+  margin: 50px auto 50px auto;
+  border: 2px solid rgb(255, 238, 0);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px 10px 10px 10px;
+  align-content: center;
+}
+header h1 , #fazerTesteLink {
+  width: 90%;
+  height: auto;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-shadow: black;
+  border-radius: 5px;
+  box-shadow: rgb(0, 0, 0);
+  background-color: rgb(255, 238, 0) ;
+  position: relative;
+  margin: 50px auto 50px auto;
+  padding: 10px;
+  text-decoration: none;
+  text-emphasis: none;
+}
+#divTeste , #divHistorico, #divRelatorio {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-shadow: black;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: rgb(0, 0, 0);
+  position: relative;
+  margin: 50px auto 50px auto;
+  width: 400px;
+  height: auto;
+  padding: 0px;
+  background-color: rgb(255, 238, 0) ;
+}
+#txtTeste , #txtHistorico, #txtRelatorio{
+  text-align: justify;
+  position: relative;
+  margin: 30px auto 30px auto;
+  width: 80%;
+}
+#fazerTesteLink {
+  display: none;
+}
