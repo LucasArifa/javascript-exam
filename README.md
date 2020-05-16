@@ -1,6 +1,5 @@
  > # Quizz JavaScript
->> [Complete Local Storage Guide / Guia Completo do Local Storage](https://blog.logrocket.com/the-complete-guide-to-using-localstorage-in-javascript-apps-ba44edb53a36/)
->>
+ >
 # _**Intructions Page Preview**_  / _**Pre-visualização da Página de Intruções**_
 
  [![Intructions Page /Página de Intruções](https://github.com/LucasArifa/javascript-exam/blob/master/images/index-screenshot-afterCheck.png)](https://lucasarifa.github.io/javascript-exam/)
@@ -51,5 +50,7 @@
 >> ## If you wanna know more technical details about Local Storage, you can go to a great Local Storage guide on below link.
 >>## Se você quiser saber mais detalhes técnicos sobre o armazenamento local, acesse um ótimo artigo sobre armazenamento local no link abaixo.
 >> 
+>> [Complete Local Storage Guide / Guia Completo do Local Storage](https://blog.logrocket.com/the-complete-guide-to-using-localstorage-in-javascript-apps-ba44edb53a36/)
+>>
 >## License
 >[MIT](https://choosealicense.com/licenses/mit/)
