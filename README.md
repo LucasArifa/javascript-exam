@@ -21,19 +21,13 @@
 >>
 >>>### English Language / Lingua Portuguesa
 >>>
- -Array propriety Manipulations / Manipulação das Propriedades de um Array
-
- -Intern and Extern JavaScript code / JavaScript interno e externo
-
- -Manipulation of Literals Objects properties / Manipulação das propriedades dos Objetos Literais
-
- -Increment and Decrement Operators / Operadores de Incremento e Decremento
-
-  -HTML DOM Access and Handling Methods / Métodos de acesso e Manipulação do HTML DOM
-
- -Conditional structures in JavaScript / Estruturas condicionais em JavaScript
-
- -JavaScript Map Objects / Map Objects em JavaScript
+ >>> #### *Array propriety Manipulations / Manipulação das Propriedades de um Array
+ >>> #### *Intern and Extern JavaScript code / JavaScript interno e externo
+ >>> #### *Manipulation of Literals Objects properties / Manipulação das propriedades dos Objetos Literais
+ >>> #### *Increment and Decrement Operators / Operadores de Incremento e Decremento
+  >>> #### *HTML DOM Access and Handling Methods / Métodos de acesso e Manipulação do HTML DOM
+ >>> #### *Conditional structures in JavaScript / Estruturas condicionais em JavaScript
+ >>> #### *JavaScript Map Objects / Map Objects em JavaScript
 >>>
 >>>
 #_**Intructions Page Preview**_  / _**Pre-visualização da Página de Intruções**_
