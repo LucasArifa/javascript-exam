@@ -17,28 +17,38 @@
 >>>### Idioma Português
 >>> Você deve testar o _**Quizz JavaScript**_  porque receberá sugestões sobre os seus pontos fracos com base nas perguntas erradas que você verificou no _**Quizz JavaScript**_, e verá sugestões e poderá melhorar os campos fracos do JavaScript com base nas sugestões.
 >>>
->>## What's the content present on _**Quizz JavaScript**_ ? / Quais são os conteúdos presentes no _**Quizz JavaScript**_ ?
+>>## Which're the content present on _**Quizz JavaScript**_ ? / Quais são os conteúdos presentes no _**Quizz JavaScript**_ ?
 >>
 >>>### English Language / Lingua Portuguesa
 >>>
- >>> #### *Array propriety Manipulations / Manipulação das Propriedades de um Array
- >>> #### *Intern and Extern JavaScript code / JavaScript interno e externo
- >>> #### *Manipulation of Literals Objects properties / Manipulação das propriedades dos Objetos Literais
- >>> #### *Increment and Decrement Operators / Operadores de Incremento e Decremento
-  >>> #### *HTML DOM Access and Handling Methods / Métodos de acesso e Manipulação do HTML DOM
- >>> #### *Conditional structures in JavaScript / Estruturas condicionais em JavaScript
- >>> #### *JavaScript Map Objects / Map Objects em JavaScript
+ >>> #### -Array propriety Manipulations / Manipulação das Propriedades de um Array
+ >>> #### -Intern and Extern JavaScript code / JavaScript interno e externo
+ >>> #### -Manipulation of Literals Objects properties / Manipulação das propriedades dos Objetos Literais
+ >>> #### -Increment and Decrement Operators / Operadores de Incremento e Decremento
+  >>> #### -HTML DOM Access and Handling Methods / Métodos de acesso e Manipulação do HTML DOM
+ >>> #### -Conditional structures in JavaScript / Estruturas condicionais em JavaScript
+ >>> #### -JavaScript Map Objects / Map Objects em JavaScript
 >>>
->>>
-#_**Intructions Page Preview**_  / _**Pre-visualização da Página de Intruções**_
+> # _**How are you doing to store the User Data ? / Como você faz pra Armazenar os Dados de Usuários ? **_
+>>
+>> In fact, I'm using one of the _**HTML APIs**_, this is _**Local Storage**_, which is a _**client-side Web Storage**_ option, among others. 
+>>
+>> Na verdade, estou usando uma das _**HTML APIs**_, essa é o _**Armazenamento local (Local Storage)**_, que é uma opção do _**Armazenamento na Web do lado do cliente**_ dentre outras.
+>>
+>> ## If you wanna know more technical details about Local Storage, you can go to a great Local Storage guide on below link.
+>>## Se você quiser saber mais detalhes técnicos sobre o armazenamento local, acesse um ótimo artigo sobre armazenamento local no link abaixo.
+>> 
+>>[![Complete Local Storage Guide / Guia Completo do Local Storage](https://blog.logrocket.com/the-complete-guide-to-using-localstorage-in-javascript-apps-ba44edb53a36/)]
+>>
+# _**Intructions Page Preview**_  / _**Pre-visualização da Página de Intruções**_
 
  [![Intructions Page /Página de Intruções](https://github.com/LucasArifa/javascript-exam/blob/master/images/index-screenshot-afterCheck.png)](https://lucasarifa.github.io/javascript-exam/)
 
- #_**Test Page Preview**_  / _**Pre-visualização da Página de Teste**_
+ # _**Test Page Preview**_  / _**Pre-visualização da Página de Teste**_
 
  [![Test Page /Página de Teste](https://github.com/LucasArifa/javascript-exam/blob/master/images/mainpage-screenshot.png)](https://lucasarifa.github.io/javascript-exam/mainpage.html)
 
- #_**Relatory Page Preview**_  / _**Pre-visualização da Página de Relatório**_
+ # _**Relatory Page Preview**_  / _**Pre-visualização da Página de Relatório**_
 
  [![Relatory Page /Página de Relatório](https://github.com/LucasArifa/javascript-exam/blob/master/images/relatorio-screenshot.png)](https://lucasarifa.github.io/javascript-exam/relatory.html)
 
